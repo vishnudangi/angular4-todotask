@@ -7,9 +7,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class TodoTaskComponent implements OnInit {
 
-  todotaskList: any = ['aaa', 'ddd'];
+  todotaskList: string[] = [];
   taskInput: string;
-  isEditTask: Boolean = false;
+  isEditTask = false;
   editIndex: number;
   constructor() { }
 

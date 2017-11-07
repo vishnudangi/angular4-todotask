@@ -1,0 +1,55 @@
+.todo-text{
+    font-size: 18px;
+}
+.margin-top-20 {
+    margin-top: 20px;
+}
+.edit-button{
+    width: 38px;
+    display: inline-block;
+    cursor: pointer;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: blue;
+    border: 1px dashed darkblue;
+    border-radius: 6px;
+    padding-left: 7px;
+    background-color: skyblue;
+    font-size: 18px;
+}
+.delete-button {
+    width: 52px;
+    display: inline-block;
+    cursor: pointer;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: mediumvioletred;
+    border: 1px dashed darkblue;
+    border-radius: 6px;
+    padding-left: 7px;
+    background-color: skyblue;
+    font-size: 18px;
+}
+.input-text-field {
+    height: 32px;
+    width: 224px;
+    font-size: 16px;
+    border: solid 1px #888;
+    border-radius: 20px;
+    outline: none;
+    padding-left: 12px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    display: block;
+}
+.add-task-button{
+    display: block;
+    margin-top: 15px;
+    width: 116px;
+    color: sandybrown;
+    font-size: 20px;
+    border-radius: 11px;
+    cursor: pointer;
+}

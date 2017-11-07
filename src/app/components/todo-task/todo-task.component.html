@@ -1,11 +1,11 @@
 <div class="todo-task-section">
   <ul>
-    <li *ngFor="let todoTask of todotaskList; let i = index">
-      <span>{{todoTask}}</span>
-      <span (click)="editTask(i)">Edit</span>
-      <span (click)="deleteTask(i)">Delete</span>
+    <li class="margin-top-20" *ngFor="let todoTask of todotaskList; let i = index">
+      <span class="todo-text">{{todoTask}}</span>
+      <span class="edit-button" (click)="editTask(i)">Edit</span>
+      <span class="delete-button" (click)="deleteTask(i)">Delete</span>
     </li>
   </ul>
-  <input type="text" [(ngModel)]="taskInput" placeholder="enter to do task">
-  <input type="button" value="Add Task" (click)="addTask()">
+  <input class="input-text-field" type="text" [(ngModel)]="taskInput" placeholder="enter to do task">
+  <input class="add-task-button" type="button" value="Add Task" (click)="addTask()">
 </div>
