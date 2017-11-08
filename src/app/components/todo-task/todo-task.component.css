@@ -1,3 +1,6 @@
+.todo-task-section{
+margin-left: 40%;
+}
 .todo-text{
     font-size: 18px;
 }
@@ -43,6 +46,7 @@
     background-color: #fff;
     background-image: none;
     display: block;
+    margin-left: 4%;
 }
 .add-task-button{
     display: block;
@@ -52,4 +56,5 @@
     font-size: 20px;
     border-radius: 11px;
     cursor: pointer;
+    margin-left: 14%
 }
